@@ -1,0 +1,25 @@
+####[database connection]
+##value for driver could be mssql, oracle or mysql
+
+dbtype = mssql
+
+##value for drivertype is just for oracle usuall it's "thin"
+##leave it NA if dbtype is not oracle
+
+drivertype = NA
+
+##value for authtype could be "windows" or "sql" if driver is mssql
+##leave it NA if driver is not mssql
+
+authtype = windows
+
+## value for all 3 types of databases above
+
+server = newserver
+dbname = PM2019	
+
+## provide user name and password if driver is mysql or oracle
+## provide user name and password if driver is mssql and authtype is sql, or leave it NA for both
+
+user = NA
+password = NA
